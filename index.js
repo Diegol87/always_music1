@@ -1,7 +1,6 @@
 //1. Realizar una conexion con PostgresSQL con la clase Client
 
 const { Client } = require('pg')
-const { off } = require('process')
 
 const config = {
     user: 'postgres',
